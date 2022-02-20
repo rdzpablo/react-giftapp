@@ -1,15 +1,27 @@
+.tituloApp{
+    font-family: 'Kanit', sans-serif;
+    font-size: 40px;
+    color: #000;
+    text-shadow: -2px 2px 7px #464646;
+}
+form input[type="text"] {
+    width: 20%;
+    border: 2px solid #898888;
+    border-radius: 5px;
+    box-shadow: -3px 3px #00000080;
+    margin-bottom: 15px;
+}
 .card {
-    width: 300px;
-    height: auto;
-    margin: 30px;
-    border-radius: 20px;
-    border: 2px solid black;
-    padding: 10px;
+    box-shadow: -6px 3px 14px 0px #18191b;
+    border-radius: 50%;
+    height: 275px;
+    margin: 10px;
     overflow: hidden;
+    width: 275px;
 }
 .card img {
     width: 100%;
-    border-radius: 20px;
+    height: 100%;
 }
 .gifs{
     display: flex;

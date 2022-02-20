@@ -17,7 +17,7 @@ useEffect (()=>{
             loading:false,
             data: img
         });
-    }, 3000);
+    }, 0);
    })
 },[categoria])
 
